@@ -23,16 +23,16 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "Less than 1 year",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
     "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02866666 \t\t\tTokyo\r\nf03144777\t\t\tTokyo\r\nf02820000\t\t\tGuangZhou\r\nf02639655\t\t\tGuangZhou\r\nf02588263\t\t\tHong Kong",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02866666 \t\t\tTokyo\r\nf03144777\t\t\tTokyo\r\nf02820000\t\t\tGuangZhou\r\nf02639655\t\t\tGuangZhou\r\nf02588263\t\t\tHong Kong\r\nadd\r\nf02368946 Huhehaote\r\nf02362412 California\r\nf02639492 California\r\nf03166666 Hongkong\r\nf03166668 Hongkong\r\nf02822222 Hong Kong",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "5PiB",
+    "Total Requested Amount": "10PiB",
     "Single Size Dataset": "1PiB",
-    "Replicas": 6,
-    "Weekly Allocation": "2PiB"
+    "Replicas": 10,
+    "Weekly Allocation": "5PiB"
   },
   "Lifecycle": {
     "State": "Granted",
@@ -43,7 +43,7 @@
     "Active Request ID": "d0911ad1-7928-4dfe-b208-dd60efd2097c",
     "On Chain Address": "f1kj4ao772y6xul55fk3aihv5t46x6bbd57c4thiy",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
