@@ -51,9 +51,16 @@
       "Request Type": "First",
       "Created At": "2024-11-01 07:51:36.868537166 UTC",
       "Updated At": "2024-11-01 07:51:36.868538326 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "100TiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "hash889900",
+          "Signing Address": "f14oq4jctudvidvyhfmrp7qt6ndng7pr7ampp3miq",
+          "Created At": "2024-11-01 07:53:54.177000000 UTC",
+          "Message CID": "bafy2bzacearvqjnncgpzadsk2zima6jv6p66xotvpz7zjiwfzkgbvtf3y5du4"
+        }
+      ]
     }
   ]
 }
