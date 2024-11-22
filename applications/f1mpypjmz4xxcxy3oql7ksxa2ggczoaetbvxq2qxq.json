@@ -23,7 +23,7 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
     "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01930832  Nanjin\r\nf01390330  Xi an\r\nf02899169  Xi an\r\nf01888808 Romania\r\nf02368946 Huhehaote\r\nf02362412 California\r\nf02639492 California\r\nf03166666 Hongkong\r\nf03166668 Hongkong\r\nf02826815 hongkong\r\nf02828269 China\r\nf02826253 Singapore\r\nf02825282 hongkong\r\nf03226666 HK\r\nf02819999 US\r\nf01690363 Hefei, Anhui Province\r\nf03166677 Guangzhou\r\nf03166688 Guangzhou\r\nf03175111 HK\r\nf03175168 japan",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01930832  Nanjin\r\nf01390330  Xi an\r\nf02899169  Xi an\r\nf01888808 Romania\r\nf02368946 Huhehaote\r\nf02362412 California\r\nf02639492 California\r\nf03166666 Hongkong\r\nf03166668 Hongkong\r\nf02826815 hongkong\r\nf02828269 China\r\nf02826253 Singapore\r\nf02825282 hongkong\r\nf03226666 HK\r\nf02819999 US\r\nf01690363 Hefei, Anhui Province\r\nf03166677 Guangzhou\r\nf03166688 Guangzhou\r\nf03175111 HK\r\nf03175168 japan\r\nf03253580 HK\r\nf03253497 HK\r\nf02808877、f02808899 Guangzhou\r\nf03226666、f03226668 HK",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
@@ -43,7 +43,7 @@
     "Active Request ID": "79365a44-048f-4528-96e3-caf85b07d135",
     "On Chain Address": "f1mpypjmz4xxcxy3oql7ksxa2ggczoaetbvxq2qxq",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
