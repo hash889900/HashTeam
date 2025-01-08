@@ -36,11 +36,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2024-12-11 16:34:41.399342503 UTC",
+    "Validated At": "2025-01-08 03:42:10.197824526 UTC",
     "Validated By": "hash889900",
     "Active": true,
-    "Updated At": "2024-12-11 16:34:41.399339326 UTC",
-    "Active Request ID": "1cc6cba7-2164-4d04-bdcc-129352ca0aa1",
+    "Updated At": "2025-01-08 03:42:10.197821317 UTC",
+    "Active Request ID": "4a23a0f4-6351-4885-b6cc-b72a5f2a41dc",
     "On Chain Address": "f174mz57hgfirq7vgdhu4piwnvrpfg7a7j7qrnfka",
     "Multisig Address": "false",
     "edited": false
@@ -59,6 +59,22 @@
           "Signing Address": "f14oq4jctudvidvyhfmrp7qt6ndng7pr7ampp3miq",
           "Created At": "2024-12-11 16:34:38.427000000 UTC",
           "Message CID": "bafy2bzacec3amzzrsr4a2fpjcdemkpeyfhhyaso2nae5mhrhnuawydpohihtc"
+        }
+      ]
+    },
+    {
+      "ID": "4a23a0f4-6351-4885-b6cc-b72a5f2a41dc",
+      "Request Type": "Refill",
+      "Created At": "2025-01-08 03:35:47.324213939 UTC",
+      "Updated At": "2025-01-08 03:35:47.324214933 UTC",
+      "Active": false,
+      "Allocation Amount": "256TiB",
+      "Signers": [
+        {
+          "Github Username": "hash889900",
+          "Signing Address": "f14oq4jctudvidvyhfmrp7qt6ndng7pr7ampp3miq",
+          "Created At": "2025-01-08 03:42:06.073000000 UTC",
+          "Message CID": "bafy2bzaceaggtrbdcg2zd4yx5jb4h4dhyakbdggo3ljzktb75ov2mccwlgjqg"
         }
       ]
     }
