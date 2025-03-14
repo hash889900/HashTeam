@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1albw7drvvgawsvdoxozvhwvlnau7hduu43kddpq",
+  "Issue Number": "46",
+  "Client": {
+    "Name": "Hunan Tumode Technology Co., Ltd",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "https://space.bilibili.com/3546816977045647",
+    "Social Media": "https://space.bilibili.com/3546816977045647",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "At the end of December 2024, our company made a bold decision to embark on an unprecedented journey of self driving around Hainan Island in 30 days. The travel team consisted mainly of our operations, research and development, photography, and logistics. What unexpected events will happen along the expected 1600 kilometer circumnavigation route, accompanied by waves. We will depart from Shenzhen to Haikou, then travel all the way to Sanya, and finally head east, passing through Lingshui and Wenchang before returning to Haikou. In this episode, we will complete one-fifth of the journey in one breath, starting from Shenzhen, passing through Haikou City, and arriving in Lingao County",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Some short video clips of traveling work, including videos, photos, etc.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "All tools inside singularity\nHere are some commands.\n\nsingularity prep create test /mnt/10.0.8.31/disk1/0/202408/cars/test/ /mnt/md0/test/\nsingularity prep create disk6 /mnt/10.0.8.31/disk6 /mnt/mergerfs\n\nsingularity prep list\nsingularity prep status MyData\n\nsingularity repl start  disk1  -csv /tmp -s 10 -d 528 minerID wallet\nsingularity repl start disk1 -csv /tmp  minerID wallet\n\n\nsingularity  repl list -v\nsingularity  repl status -v +id",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://space.bilibili.com/3546816977045647",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[ ] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America",
+    "How will you be distributing your data to storage providers": "Shipping hard drives, HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03175168 Tokyo\nf02808877  Guangzhou \nf03299999 HK\nf02822088 Thailand\nf03377777 Thailand\nf03277453 Malaysia\nf03226666 HK\nf03226668 HK\nf03175111 HK\nf03499999 HK\nf03500000 HK",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 10,
+    "Weekly Allocation": "3PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-03-14 13:53:35.972975729 UTC",
+    "Validated By": "hash889900",
+    "Active": true,
+    "Updated At": "2025-03-14 13:53:35.972972434 UTC",
+    "Active Request ID": "8e1231d7-8731-4e7e-aa9e-75dc620318fe",
+    "On Chain Address": "f1albw7drvvgawsvdoxozvhwvlnau7hduu43kddpq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "8e1231d7-8731-4e7e-aa9e-75dc620318fe",
+      "Request Type": "First",
+      "Created At": "2025-03-14 13:51:25.393697758 UTC",
+      "Updated At": "2025-03-14 13:51:25.393698658 UTC",
+      "Active": false,
+      "Allocation Amount": "512 TiB",
+      "Signers": [
+        {
+          "Github Username": "hash889900",
+          "Signing Address": "f14oq4jctudvidvyhfmrp7qt6ndng7pr7ampp3miq",
+          "Created At": "2025-03-14 13:53:33.091000000 UTC",
+          "Message CID": "bafy2bzacebvjif5pekgwksobfy5ed2wxlx6ap4hcbcuoaec7gyv3mzw6f3zeu"
+        }
+      ]
+    }
+  ]
+}
