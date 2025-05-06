@@ -29,10 +29,10 @@
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "5PiB",
-    "Single Size Dataset": "500TiB",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "1PiB",
     "Replicas": 10,
-    "Weekly Allocation": "2PiB"
+    "Weekly Allocation": "3PiB"
   },
   "Lifecycle": {
     "State": "Granted",
@@ -43,7 +43,7 @@
     "Active Request ID": "503a37fa-b1e5-40e7-be82-11dd0ea6aabd",
     "On Chain Address": "f1ibg3wgg4vjrfiwvl7awghsylac4lugsaj6ugjya",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
