@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f15ssaxpw3swf6j2rseq6a7oejn2abiwcimdaaunq",
+  "Issue Number": "72",
+  "Client": {
+    "Name": "Chongqing Jinmaohui Co., Ltd",
+    "Region": "China",
+    "Industry": "Resources, Agriculture & Fisheries",
+    "Website": "https://cqsjmh.com/",
+    "Social Media": "https://cqsjmh.com/",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Chongqing Jinmaohui Agriculture Co., Ltd. was established on June 22, 2024, with its registered address at No. 1571 Wangpai Road, Pailou Street, Wanzhou District, Chongqing. The legal representative is Zhang Mingmei. The business scope includes licensed projects: manufacturing of soy products; Food sales; Road freight transportation (excluding dangerous goods). (For projects that require approval by law, business activities can only be carried out after approval by relevant departments. Specific business projects shall be subject to the approval documents or licenses issued by relevant departments.) General projects: vegetable cultivation; Wholesale of fresh vegetables; Wholesale of fresh fruits; Wholesale of edible agricultural products; Initial processing of edible agricultural products; Legume cultivation; Labor services (excluding labor dispatch); Grain cultivation; Fruit cultivation; Flower cultivation; Chinese herbal medicine cultivation; Horticultural product cultivation; Planting of aquatic plants; Sales of agricultural and sideline products; Grain sales; Sales of horticultural products; Crop cultivation services; Irrigation services; Crop harvesting services; Purchase of primary agricultural products; Agricultural specialties and auxiliary activities; Crop pest and disease control services; Supply chain management services; Intelligent agricultural management; Agricultural scientific research and experimental development; Technical services, technology development, technology consulting, technology exchange, technology transfer, and technology promotion; General cargo warehousing services (excluding projects requiring permits and approvals such as hazardous chemicals). (Except for projects that require approval according to law, conduct business activities independently based on the business license in accordance with the law)",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Backup of some of the company's public video files",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "We will use the singularity\nThe following are some of the operating commands\n\n`singularity prep list`\n`singularity prep status MyData`\n`singularity prep create MyData ~/dataset/folder ~/outDir `\n`singularity prep generation-status --dataset MyData <index>`",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://drive.google.com/drive/folders/1KkEnBn27-iuVBNulbZOOXvjjf72GiNok?usp=sharing",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03377773 Vietnam\nf03377778 Vietnam\nf03373733 Guangdong\nf03373337 Guangdong\nf03373373 Guangdong\nf03081952 CALIFORNIA\nf03577777  Singapore\nf03577778  Singapore\nf03567898  Shenzhen\nf03567899  Shenzhen",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "500TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "2PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-07-18 02:08:09.559596996 UTC",
+    "Validated By": "hash889900",
+    "Active": true,
+    "Updated At": "2025-07-18 02:08:09.559593613 UTC",
+    "Active Request ID": "1452621d-121d-4cc2-ba72-8b9f8a9cf376",
+    "On Chain Address": "f15ssaxpw3swf6j2rseq6a7oejn2abiwcimdaaunq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "1452621d-121d-4cc2-ba72-8b9f8a9cf376",
+      "Request Type": "First",
+      "Created At": "2025-07-18 02:06:35.623797268 UTC",
+      "Updated At": "2025-07-18 02:06:35.623798283 UTC",
+      "Active": false,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "hash889900",
+          "Signing Address": "f14oq4jctudvidvyhfmrp7qt6ndng7pr7ampp3miq",
+          "Created At": "2025-07-18 02:08:06.366000000 UTC",
+          "Message CID": "bafy2bzaceb2v2cmhqv3qpf25rh5wmphftlfaykzlqebju7d4jjrzqshmyz544"
+        }
+      ]
+    }
+  ]
+}
