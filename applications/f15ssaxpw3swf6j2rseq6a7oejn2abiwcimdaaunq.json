@@ -35,12 +35,12 @@
     "Weekly Allocation": "2PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "TotalDatacapReached",
     "Validated At": "2025-08-01 07:03:34.044837823 UTC",
     "Validated By": "hash889900",
-    "Active": true,
-    "Updated At": "2025-08-01 07:03:34.044833478 UTC",
-    "Active Request ID": "aec41b6c-81c2-4618-96ff-f7df13760c6c",
+    "Active": false,
+    "Updated At": "2025-08-03 09:00:33.448154734 UTC",
+    "Active Request ID": null,
     "On Chain Address": "f15ssaxpw3swf6j2rseq6a7oejn2abiwcimdaaunq",
     "Multisig Address": "false",
     "edited": false
