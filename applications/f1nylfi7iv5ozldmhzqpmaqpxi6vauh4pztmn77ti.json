@@ -1,0 +1,69 @@
+{
+  "Version": "1.3",
+  "ID": "f1nylfi7iv5ozldmhzqpmaqpxi6vauh4pztmn77ti",
+  "Issue Number": "92",
+  "Client Contract Address": "f410fg7pkr7my6mm32nnr6uzaxly3vxwa5rbl6axkddi",
+  "Client": {
+    "Name": "ddo test",
+    "Region": "Afghanistan",
+    "Industry": "Life Science / Healthcare",
+    "Website": "ddo test",
+    "Social Media": "ddo test",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "ddo test",
+    "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
+    "Describe the data being stored onto Filecoin": "ddo test",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "ddo test",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "ddo test",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[ ] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Less than 1 year",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China",
+    "How will you be distributing your data to storage providers": "IPFS",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "ddo test",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "100TiB",
+    "Single Size Dataset": "100TiB",
+    "Replicas": 6,
+    "Weekly Allocation": "100TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-09-12 03:07:10.353901959 UTC",
+    "Validated By": "hash889900",
+    "Active": true,
+    "Updated At": "2025-09-12 03:07:10.353897177 UTC",
+    "Active Request ID": "1266bbfb-dd8c-4ede-8ed4-41f9928ab935",
+    "On Chain Address": "f1nylfi7iv5ozldmhzqpmaqpxi6vauh4pztmn77ti",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "1266bbfb-dd8c-4ede-8ed4-41f9928ab935",
+      "Request Type": "First",
+      "Created At": "2025-09-12 03:04:34.257067762 UTC",
+      "Updated At": "2025-09-12 03:04:34.257069248 UTC",
+      "Active": false,
+      "Allocation Amount": "109951162777600 B",
+      "Amount of Datacap Sent to Contract": "109951162777600 B",
+      "Signers": [
+        {
+          "Github Username": "hash889900",
+          "Signing Address": "f14oq4jctudvidvyhfmrp7qt6ndng7pr7ampp3miq",
+          "Created At": "2025-09-12 03:07:03.792000000 UTC",
+          "Message CID": "bafy2bzaceaqoir6p5xha456qhx6jz4ilvrexd5qqe6zqbnbdfw63nb42l3z7k",
+          "Increase allowance CID": "bafy2bzaceaybn5srp367nolaxpc7gs5gmybrnfow5kpptfbrl5irom32coc72"
+        }
+      ]
+    }
+  ]
+}
