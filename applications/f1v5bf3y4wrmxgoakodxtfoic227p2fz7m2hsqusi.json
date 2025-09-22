@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-09-22 03:40:37.818238214 UTC",
+    "Validated At": "2025-09-22 03:46:12.068355066 UTC",
     "Validated By": "hash889900",
     "Active": true,
-    "Updated At": "2025-09-22 03:40:37.818233832 UTC",
-    "Active Request ID": "16e9a2fa-2141-4bb5-9b93-a93cd550d4eb",
+    "Updated At": "2025-09-22 03:46:12.068354356 UTC",
+    "Active Request ID": "c214c3f3-e2ec-470f-b497-971354112d12",
     "On Chain Address": "f1v5bf3y4wrmxgoakodxtfoic227p2fz7m2hsqusi",
     "Multisig Address": "false",
     "edited": false
@@ -152,6 +152,44 @@
               "3080038",
               "3373733",
               "3373337"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "215c3856-7ef4-4b40-b3cb-b9796f617fe1",
+      "Created At": "2025-09-22 03:46:12.068331608 UTC",
+      "Updated At": "2025-09-22 03:46:12.068336152 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3577777,
+        3577778,
+        3567898,
+        3567899,
+        3068297,
+        3080038,
+        3373733,
+        3373337,
+        3519199,
+        3519200,
+        3519208,
+        2808899,
+        3175111,
+        3175168
+      ],
+      "Signers": [
+        {
+          "Github Username": "hash889900",
+          "Signing Address": "f14oq4jctudvidvyhfmrp7qt6ndng7pr7ampp3miq",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaceatmjsc4jioi7wa2hbroyx3twmfz3jxgapcjf2i43blvzg5vsyzha": [
+              "3519199",
+              "3519200",
+              "3519208",
+              "2808899",
+              "3175111",
+              "3175168"
             ]
           }
         }
