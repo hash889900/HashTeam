@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-11-27 02:43:39.394421023 UTC",
+    "Validated At": "2025-11-29 01:20:18.260738613 UTC",
     "Validated By": "hash889900",
     "Active": true,
-    "Updated At": "2025-11-27 02:43:39.394417198 UTC",
-    "Active Request ID": "78a9fc18-c54b-4ec6-aa34-c468523c2b7c",
+    "Updated At": "2025-11-29 01:20:18.260736271 UTC",
+    "Active Request ID": "af6793ce-6cb6-4550-b66b-8be6895ef7d2",
     "On Chain Address": "f1mb7ayjwpwtxbqmgdp6iynsblvxi2d2tjc3oerkq",
     "Multisig Address": "false",
     "edited": false
@@ -108,6 +108,46 @@
           "Set Max Deviation CID": "bafy2bzaceb33vg3wsilm7t5ycdtc4unss6mekefzfofw7n65cyuwybpzvd5w4",
           "Add Allowed Storage Providers CID": {
             "bafy2bzacebnrcljalcesqrvxoq7pdk5qp7eefkv74ny2kt5p4aib6pq6zkyoq": [
+              "3649204",
+              "3649212",
+              "3649217",
+              "3649227",
+              "3368008",
+              "3641915",
+              "3641951",
+              "3641955"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "6b7a283c-f903-4a75-b5f0-78cc5f74074b",
+      "Created At": "2025-11-29 01:20:18.260715417 UTC",
+      "Updated At": "2025-11-29 01:20:18.260720742 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3099287,
+        3098965,
+        3669112,
+        3099008,
+        3099101
+      ],
+      "Signers": [
+        {
+          "Github Username": "hash889900",
+          "Signing Address": "f14oq4jctudvidvyhfmrp7qt6ndng7pr7ampp3miq",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaceakrzbrcvsnqzynrabnkwweyn4p7awvaj4okqibu26vb7yahvu6ww": [
+              "3099287",
+              "3098965",
+              "3669112",
+              "3099008",
+              "3099101"
+            ]
+          },
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzacec2oofrjqrk22vbcr57rnwihcjmg6w5if2hal7bjybqlcaixsv4c2": [
               "3649204",
               "3649212",
               "3649217",
