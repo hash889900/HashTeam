@@ -1,0 +1,69 @@
+{
+  "Version": "1.3",
+  "ID": "f1wso3l6qvfgmix5z4e6cdapx6g7oyefxjpsfae4y",
+  "Issue Number": "107",
+  "Client Contract Address": "f410fg7pkr7my6mm32nnr6uzaxly3vxwa5rbl6axkddi",
+  "Client": {
+    "Name": "Guangzhou Maya Game Design Co., Ltd.",
+    "Region": "China",
+    "Industry": "Education & Training",
+    "Website": "http://www.gzmaya.com/",
+    "Social Media": "http://www.gzmaya.com/",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "http://www.gzmaya.com/col.jsp?id=101\nYou can visit our website to learn more.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "http://www.gzmaya.com/col.jsp?id=159\n\nHere is the relevant information.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "Built using the open-source go-car tool, with order dispatch handled by Boost.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://www.gzmaya.com/col.jsp?id=173\nhttp://www.gzmaya.com/col.jsp?id=157\nhttp://www.gzmaya.com/col.jsp?id=159\n\nSome similar tutorials",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives, IPFS",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03573579 United States\nf03593579 United States\nf03573377 Thailand \nf03582468 Singapore\nf03588888 Hong Kong\n\nThe rest will be added later.",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "10PiB",
+    "Single Size Dataset": "1.25PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "3PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-12-19 02:30:34.409237187 UTC",
+    "Validated By": "hash889900",
+    "Active": true,
+    "Updated At": "2025-12-19 02:30:34.409232455 UTC",
+    "Active Request ID": "9d2a4a10-4e16-4915-bcd0-d7dcd5a459e1",
+    "On Chain Address": "f1wso3l6qvfgmix5z4e6cdapx6g7oyefxjpsfae4y",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "9d2a4a10-4e16-4915-bcd0-d7dcd5a459e1",
+      "Request Type": "First",
+      "Created At": "2025-12-19 02:27:52.207651256 UTC",
+      "Updated At": "2025-12-19 02:27:52.207653053 UTC",
+      "Active": false,
+      "Allocation Amount": "281474976710656 B",
+      "Amount of Datacap Sent to Contract": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "hash889900",
+          "Signing Address": "f14oq4jctudvidvyhfmrp7qt6ndng7pr7ampp3miq",
+          "Created At": "2025-12-19 02:30:30.198000000 UTC",
+          "Message CID": "bafy2bzaceaza7tfib4r5fuw33jcvbebijubfwjiwj3bpk7wm6dzxouah5i4ms",
+          "Increase allowance CID": "bafy2bzacec5f2htrbb2grgaab5pikll6tw7xgv2ligzkbbw3jrscek6ggg5t2"
+        }
+      ]
+    }
+  ]
+}
