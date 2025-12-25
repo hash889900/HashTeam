@@ -37,10 +37,10 @@
   },
   "Lifecycle": {
     "State": "ReadyToSign",
-    "Validated At": "2025-12-25 06:25:09.675187290 UTC",
+    "Validated At": "2025-12-25 06:29:09.694536985 UTC",
     "Validated By": "hash889900",
     "Active": true,
-    "Updated At": "2025-12-25 06:25:09.675190193 UTC",
+    "Updated At": "2025-12-25 06:29:09.694536009 UTC",
     "Active Request ID": "b6dced13-c563-4d0b-8dfd-08cf8524ab04",
     "On Chain Address": "f1v5bf3y4wrmxgoakodxtfoic227p2fz7m2hsqusi",
     "Multisig Address": "false",
@@ -199,6 +199,54 @@
               "2808899",
               "3175111",
               "3175168"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "14579783-3e89-4cc8-abeb-3cd3c24fbab3",
+      "Created At": "2025-12-25 06:29:09.694505975 UTC",
+      "Updated At": "2025-12-25 06:29:09.694511799 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3559991,
+        3559992,
+        3559993,
+        3559994,
+        3559995
+      ],
+      "Signers": [
+        {
+          "Github Username": "hash889900",
+          "Signing Address": "f14oq4jctudvidvyhfmrp7qt6ndng7pr7ampp3miq",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacebgxoxcqjeeij72msmmp7onuiddh76yivgcp5e5mb5eyucyhg4zfm": [
+              "3559991 ",
+              "3559992",
+              "3559993",
+              "3559994",
+              "3559995"
+            ]
+          },
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzacecleadk3szj6anj44mht2drvgwvoltzh45msqfysqijhhj44xi4fa": [
+              "3519199",
+              "3519200",
+              "3519208",
+              "2808899",
+              "3175111",
+              "3175168"
+            ],
+            "bafy2bzaceae55hqewzdismvvruyz7lgw77kdihrdpk2fsvphlswx34vf67rb6": [
+              "3577777",
+              "3577778",
+              "3567898",
+              "3567899",
+              "3068297",
+              "3080038",
+              "3373733",
+              "3373337"
             ]
           }
         }
