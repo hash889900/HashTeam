@@ -36,7 +36,7 @@
     "Weekly Allocation": "1000TiB"
   },
   "Lifecycle": {
-    "State": "ChangesRequested",
+    "State": "Granted",
     "Validated At": "2026-01-04 08:40:34.128251571 UTC",
     "Validated By": "hash889900",
     "Active": true,
